@@ -20,6 +20,7 @@ public class MainController {
 	public String printWelcome(ModelMap model) {
 
 		model.addAttribute("message", "Hello Hack Spring Logger Tutorial ;-)");
+		logger.error("Test of hacked logger");
 		return "hello";
 	}
 }
