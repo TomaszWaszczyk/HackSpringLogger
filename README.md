@@ -9,3 +9,10 @@ HackSpringLogger
 1.5 Done ;-)
 
 Logger with Spring hacked.
+
+
+
+
+Thanks to the code you can avoid such a like of code:
+
+private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(CustomerController2.class);
